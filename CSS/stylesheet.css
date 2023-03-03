@@ -1,4 +1,4 @@
-header {display: flex; 
+header {display: flex; /*the hearder will have should have a division in the middle*/
         justify-content: space-between;
         background-color: #1c8eb5;
         padding: 20px;
@@ -7,15 +7,15 @@ header {display: flex;
         margin-right: -10px;
         
 }
-.imageandname {display: flex;}
+.imageandname {display: flex;} /* separation of the image my name*/
 body {background: rgba(82, 127, 142, 0.462);
 }
-.content {display: flex;
+.content {display: flex; /*to have two portion or columns on my display*/
 }
-.left {display: grid;
+.left {display: grid; /*to spaceout the skills and the education section*/
        margin-right: 5px;
 }
-.education {box-sizing: content-box;
+.education {box-sizing: content-box;/*set the content into box format*/
             background-color: #05244741;
             margin-top: 5px;
             padding-left: 5px;
