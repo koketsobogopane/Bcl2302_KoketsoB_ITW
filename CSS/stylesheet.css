@@ -1,13 +1,13 @@
 header {display: flex; 
         justify-content: space-between;
         background-color: #1c8eb5;
-        padding: 10px;
+        padding: 20px;
         margin-top: -22px;
         margin-left: -10px;
         margin-right: -10px;
+        
 }
-.imageandname {display: flex;
-} 
+.imageandname {display: flex;}
 body {background: rgba(82, 127, 142, 0.462);
 }
 .content {display: flex;
@@ -38,7 +38,8 @@ menu {box-sizing: content-box;
 }
 html {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;}
 h2 {color: #1c8eb5;}
-.intro {color: #052447;}
+.intro {color: #052447;
+}
 .profile {box-sizing: border-box;
           width: 152px;
           Height: 150px;
