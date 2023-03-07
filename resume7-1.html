@@ -67,12 +67,42 @@
      </div>
     </div>
     <footer>
-        <div class="contactdetails"><!--nested under heaader-->
+        <div class="contactdetails">
+            <h3>My contact details</details></h3>
             <ul>
                 <li>Personal phone: <a href="0659543838">0659543838</a></li>
                 <li>Email: <a href="koketsobogopanenov24@gmail.com">koketsobogopanenov24@gmail.com</a></li>
              </ul>
                     </div>
+                <div class="user_form">
+                    <h3>User Iformation</h3>
+                    <form action="https://formsubmit.co/koketsobogopanenov24@gmail.com" method="POST"><!--each of the content in the form is divided to be able to be styled individualy-->
+                        <div class="user_name">
+                        <label for="user_name">Name:</label>
+                        <input type="text" name="name" required>
+                        </div>
+                        <div class="User gender">
+                        <label for="gender">Gender:</label>
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" value="male
+                        " required>
+                        <label for="gender">Female</label>
+                        <input type="radio" name="gender" value="fem
+                        " required>
+                        </div>
+                        <div class="use_email">
+                        <label for="user_mail">Email</label>
+                        <input type="email" name="email" required>
+                        </div>
+                        <div class="user_comment">
+                        <label for="user_comment">Comment:</label>
+                        <textarea name="user_comment" id="" cols="30" rows="10" optional></textarea>
+                        </div>
+                        <div class="submit_button">
+                        <button type="submit">Send</button>
+                        </div>
+                   </form> 
+                </div>
     </footer>
   </body>
 </html>
