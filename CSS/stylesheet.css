@@ -2,14 +2,14 @@
    padding: 0;
    box-sizing: border-box;
 }
-header {display: flex; /*the hearder will have should have a division in the middle*/
-        justify-content: space-between;
+header { /*the hearder will have should have a division in the middle*/
         padding: 0px;
         margin: 0px;
-        background-image: url(https://i.pinimg.com/236x/2e/e7/41/2ee7411c65dfd6dafb15fe7d02bf2dc9.jpg);
+        color: #b9e4dd;
+        background-image: url(https://media.istockphoto.com/id/1029147466/photo/digital-binary-code-concept.jpg?b=1&s=170667a&w=0&k=20&c=UNGFBMErcU80SxuQzO6ViKvY5LYij3LYzWA5zrsX7dk=);
+        background-size: cover;
         
 }
-h1 {color: #000000;}
 .imageandname {display: flex;} /* separation of the image my name*/
 .container {background: rgba(82, 127, 142, 0.462);
             padding: 10px;
@@ -43,12 +43,10 @@ html {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
 h2 {color: #1c8eb5;}
 .intro {color: #052447;
 }
-.profile {box-sizing: border-box;
-          width: 152px;
-          Height: 150px;
+.profile {        
           margin: 5px;
           border: 3px solid #D9D9D9;
-          border-radius: 125px  
+          border-radius: 300px  
 }
 .contactdetails {background-color:  #05244741;
                  padding: 20px;
