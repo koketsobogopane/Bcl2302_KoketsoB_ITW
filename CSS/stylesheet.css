@@ -4,11 +4,12 @@
 }
 header {display: flex; /*the hearder will have should have a division in the middle*/
         justify-content: space-between;
-        background-color: #1c8eb5;
         padding: 0px;
         margin: 0px;
+        background-image: url(https://i.pinimg.com/236x/2e/e7/41/2ee7411c65dfd6dafb15fe7d02bf2dc9.jpg);
         
 }
+h1 {color: #000000;}
 .imageandname {display: flex;} /* separation of the image my name*/
 .container {background: rgba(82, 127, 142, 0.462);
             padding: 10px;
@@ -31,7 +32,7 @@ header {display: flex; /*the hearder will have should have a division in the mid
         margin-left: 5px;
         padding: 20px;
 }
-menu {box-sizing: content-box;
+.menu {justify-content: center;
       background-color: aliceblue;
       margin-right: 75%;
       padding: 20px;
@@ -47,7 +48,7 @@ h2 {color: #1c8eb5;}
           Height: 150px;
           margin: 5px;
           border: 3px solid #D9D9D9;
-          border-radius: 125px;  
+          border-radius: 125px  
 }
 .contactdetails {background-color:  #05244741;
                  padding: 20px;

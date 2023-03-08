@@ -11,8 +11,12 @@
     <header>
         <div class="imageandname"><!--nested under header-->
             <div class="img"><!--nested class under parent element imageandname-->
-        <image  src ="
+        <picture>
+            <source media="(max-width: 650px)" srcset=".\Images\koketso-small-1.jpg">
+            <source media="(max-width: 1000px)" srcset=".\Images\my-profile-image.png">
+                <image  src ="
         ./Images\my-profile-image.png" alt="my-profile-image" class="profile"></image><!--linking to image folder -->
+       </picture>
     </div>
     <div class="nameandstatement"><!--nested under parent element imageandname-->
    <h1>Koketso Bogopane</h1>
@@ -21,12 +25,12 @@
         </div>
     </header>
     <div class="container">
-        <menu>
-            <p><h2 style="color: #052447">Menu</h2></p>
+        <div class="menu">
+            <p><h2>Menu</h2></p>
             <li><a href="#Education">Education</a></li>
             <li><a href="#Expirience">Expirience</a></li>
             <li><a href="#skills">skills</a></li>
-        </menu>
+        </div>
 <div class="content">
      <div class="left"><!--nested under content-->
         <div class="education"><!--nested under left-->
