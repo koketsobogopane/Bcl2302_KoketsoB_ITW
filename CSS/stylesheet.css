@@ -33,7 +33,8 @@ header { /*the hearder will have should have a division in the middle*/
         padding: 20px;
 }
 .menu {justify-content: center;
-      background-color: aliceblue;
+        background-color: aliceblue;
+      width: 120px;
       margin-right: 75%;
       padding: 20px;
       margin-bottom: 5px;
