@@ -1,3 +1,4 @@
+/* to reset the whole page */
 * {margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -24,7 +25,7 @@ header { /*the hearder will have should have a division in the middle*/
             padding-left: 5px;
             
 }
-.skills {background-color: #05244741;
+ .skills {background-color: #05244741; 
          margin-top: 5px;
          padding: 20px;
 }
@@ -32,8 +33,13 @@ header { /*the hearder will have should have a division in the middle*/
         margin-left: 5px;
         padding: 20px;
 }
+.menu:hover {
+        background-color: rgb(240, 248, 255)
+             
+             
+}
 .menu {justify-content: center;
-        background-color: aliceblue;
+      background-color: rgba(240, 248, 255, 0.244);
       width: 120px;
       margin-right: 75%;
       padding: 20px;
