@@ -3,64 +3,129 @@
    padding: 0;
    box-sizing: border-box;
 }
-header { /*the hearder will have should have a division in the middle*/
+/* styling to for a mobile phone max-width=430*/
+body {
+        width: fit-content;
+}
+ header {
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content:  center;
+        padding-bottom: 10px;
+        margin: 0px;
+        color: #b9e4dd;
+        background-image: url(https://media.istockphoto.com/id/1029147466/photo/digital-binary-code-concept.jpg?b=1&s=170667a&w=0&k=20&c=UNGFBMErcU80SxuQzO6ViKvY5LYij3LYzWA5zrsX7dk=);
+        background-size: cover;      
+}
+
+.profile {
+        margin: 10px;
+        border: 3px solid #D9D9D9;
+        border-radius: 300px;
+}
+
+.nameandstatement {
+        display: flex;
+        flex-direction: column;
+}
+
+.menu { background-color: rgba(240, 248, 255, 0.244);
+        width: 200px;
+        margin-right: 75%;
+        padding: 20px;
+        margin-bottom: 5px;
+        border-radius: 50px;
+}
+
+.menu:hover {
+        background-color: rgb(240, 248, 255)
+}
+
+.education {
+        font-size: small;
+        box-sizing: content-box;/*set the content into box format*/
+        background-color: #05244741;
+        padding: 10px;
+}
+
+.experience {
+        margin-top: 5px;
+        font-size: small;
+        background-color: #05244741;
+        padding: 10px;
+}
+
+.skills {
+        font-size: small;
+        background-color: #05244741; 
+        margin-top: 5px;
+        padding: 10px;
+}
+
+.contactdetails {
+        font-size: small;
+        background-color:  #05244741;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.user_form {
+        font-size: small;
+        background-color:  #05244741;
+        padding: 10px;
+        margin-top: 5px; 
+}
+
+ul {
+        padding-left: 10px;
+}
+/* styling for mobile phone max-width=430*/
+
+/*for mid laptops tolarger laptops*/
+@media only screen and (min-width: 1024px )
+        {header { 
+        display: flex;
+        flex-direction: column;
         padding: 0px;
         margin: 0px;
         color: #b9e4dd;
         background-image: url(https://media.istockphoto.com/id/1029147466/photo/digital-binary-code-concept.jpg?b=1&s=170667a&w=0&k=20&c=UNGFBMErcU80SxuQzO6ViKvY5LYij3LYzWA5zrsX7dk=);
-        background-size: cover;
-        
-}
-.imageandname {display: flex;} /* separation of the image my name*/
-.container {background: rgba(82, 127, 142, 0.462);
+        background-size: cover;}}
+
+
+/*for mid laptops tolarger laptops*/
+@media only screen and (min-width: 1024px ){.imageandname {display: flex;}} /* separation of the image my name*/
+.container {width: fit-content;
+            background: rgba(82, 127, 142, 0.462);
             padding: 10px;
 }
-.content {display: flex; /*to have two portion or columns on my display*/
+/*for mid laptops tolarger laptops*/
+@media only screen and (min-width: 1024px ){
+        .content {display: flex;
+                  align-items:normal;
+        
 }
 .left {display: grid; /*to spaceout the skills and the education section*/
        margin-right: 5px;
-}
-.education {box-sizing: content-box;/*set the content into box format*/
-            background-color: #05244741;
-            padding-left: 5px;
-            
-}
- .skills {background-color: #05244741; 
-         margin-top: 5px;
-         padding: 20px;
-}
+}}
+ 
+/*for mid laptops tolarger laptops*/
+@media only screen and (min-width: 1024px ){        
 .right {background-color: #05244741;
-        margin-left: 5px;
+        margin-top: 0px;
         padding: 20px;
-}
-.menu:hover {
-        background-color: rgb(240, 248, 255)
-             
-             
-}
-.menu {justify-content: center;
-      background-color: rgba(240, 248, 255, 0.244);
-      width: 120px;
-      margin-right: 75%;
-      padding: 20px;
-      margin-bottom: 5px;
-      border-radius: 50px;
-}
+}}
+
+
 html {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;}
 h2 {color: #1c8eb5;}
 .intro {color: #052447;
 }
-.profile {        
-          margin: 5px;
-          border: 3px solid #D9D9D9;
-          border-radius: 300px  
-}
-.contactdetails {background-color:  #05244741;
-                 padding: 20px;
-                 margin-top: 5px;
-                 margin-bottom: 5px;
-}
-.user_form {background-color:  #05244741;
-            padding: 10px;
-            margin-top: 5px; 
-}
+
+
+
+
+
+
