@@ -1,6 +1,5 @@
 /* to reset the whole page */
 * {margin: 0;
-   padding: 0;
    box-sizing: border-box;
 }
 /* styling to for a mobile phone max-width=430*/
@@ -42,9 +41,15 @@ body {
         background-color: rgb(240, 248, 255)
 }
 
+.content {
+        display:grid;
+        flex-direction: column;
+        
+}
+
 .education {
         font-size: small;
-        box-sizing: content-box;/*set the content into box format*/
+        box-sizing: content-box;
         background-color: #05244741;
         padding: 10px;
 }
@@ -83,46 +88,173 @@ ul {
 }
 /* styling for mobile phone max-width=430*/
 
-/*for mid laptops tolarger laptops*/
+/*for mid laptops to larger laptops*/
 @media only screen and (min-width: 1024px )
-        {header { 
-        display: flex;
+        {      
+        header { 
+        display: grid;
+        font-size: large;
         flex-direction: column;
         padding: 0px;
         margin: 0px;
         color: #b9e4dd;
         background-image: url(https://media.istockphoto.com/id/1029147466/photo/digital-binary-code-concept.jpg?b=1&s=170667a&w=0&k=20&c=UNGFBMErcU80SxuQzO6ViKvY5LYij3LYzWA5zrsX7dk=);
-        background-size: cover;}}
+        background-size: cover;}
+
+        .profile {
+                margin: 10px;
+                border: 3px solid #D9D9D9;
+                border-radius: 300px;
+        }
+
+        .menu { background-color: rgba(240, 248, 255, 0.244);
+                width: 200px;
+                margin-right: 75%;
+                padding: 20px;
+                margin-bottom: 5px;
+                border-radius: 50px;
+        }
+        
+        .menu:hover {
+                background-color: rgb(240, 248, 255)
+        }
+        
+        .education {
+                font-size: large;
+                box-sizing: content-box;/*set the content into box format*/
+                background-color: #05244741;
+                padding: 10px;
+        }
+        
+        .experience {
+
+                font-size: large;
+                padding: px;
+
+        }
+        
+        .skills {
+                font-size: large;
+                background-color: #05244741; 
+                margin-top: 5px;
+                padding: 10px;
+        }
+        
+        .contactdetails {
+                font-size: large;
+                background-color:  #05244741;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+        }
+        
+        .user_form {
+                font-size: large;
+                background-color:  #05244741;
+                padding: 10px;
+                margin-top: 5px; 
+        }
+        
+        ul {
+                padding-left: 10px;}
+
+        .imageandname {
+                display: flex;}
+
+        .content {
+                display: flex;
+        }
+        
+        }
 
 
-/*for mid laptops tolarger laptops*/
-@media only screen and (min-width: 1024px ){.imageandname {display: flex;}} /* separation of the image my name*/
+/* styling for tablet*/
+@media only screen and (min-width:768px){
+        
+        * {
+                font-size: medium;
+        }
+
+        header {
+                display: grid;
+                justify-content: center;
+                padding: 10px;
+                color: #b9e4dd;
+                background-image: url(https://media.istockphoto.com/id/1029147466/photo/digital-binary-code-concept.jpg?b=1&s=170667a&w=0&k=20&c=UNGFBMErcU80SxuQzO6ViKvY5LYij3LYzWA5zrsX7dk=);
+                background-size: cover;
+        }
+
+        .profile {
+                margin: 10px;
+                border: 3px solid #D9D9D9;
+                border-radius: 300px;
+                position: relative;
+                left: 25px;
+        }
+
+        .menu { background-color: rgba(240, 248, 255, 0.244);
+                width: 200px;
+                margin-right: 75%;
+                padding: 20px;
+                margin-bottom: 5px;
+                border-radius: 50px;
+        }
+        
+        .menu:hover {
+                background-color: rgb(240, 248, 255)
+        }
+
+        .content {
+                display: grid;
+                grid-template-columns: repeat(2,1fr);          
+        }
+
+
+        .education {
+                background-color: #05244741;
+                padding: 10px;
+        }
+        .skills {
+                background-color: #05244741;
+                padding: 10px;
+                margin-top: 5px;
+        }
+        .experience {
+                background-color: #05244741;
+                margin-top: 0;
+                padding: 30px;
+                padding-bottom: 140px;
+                margin-bottom: 0px;
+        }
+
+        .contactdetails {
+                background-color: #05244741;
+                padding: 10px;
+                margin-top: 5px;
+        }
+
+        .user_form {
+                background-color: #05244741;
+                padding: 10px;
+                margin-top: 5px;
+        }}
+        
+        
+
+
+
 .container {width: fit-content;
             background: rgba(82, 127, 142, 0.462);
             padding: 10px;
 }
-/*for mid laptops tolarger laptops*/
-@media only screen and (min-width: 1024px ){
-        .content {display: flex;
-                  align-items:normal;
         
-}
 .left {display: grid; /*to spaceout the skills and the education section*/
        margin-right: 5px;
-}}
- 
-/*for mid laptops tolarger laptops*/
-@media only screen and (min-width: 1024px ){        
-.right {background-color: #05244741;
-        margin-top: 0px;
-        padding: 20px;
-}}
-
-
+} 
 html {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;}
 h2 {color: #1c8eb5;}
-.intro {color: #052447;
-}
+
+
 
 
 
